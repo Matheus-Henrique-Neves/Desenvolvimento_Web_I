@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+#main{
+    font-family:Montserrat;
+    margin: 0 auto;
+    width: 95%;
+}
+
+#textos{
+    margin-right: 50px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    padding: 1%;
+    background-color: rgb(119, 255, 0);
+}
+#dados_pessoais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
