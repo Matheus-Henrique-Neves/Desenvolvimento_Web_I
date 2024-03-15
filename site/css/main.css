@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#header{
+    background-color: #191970;
+    width: 100%;
+    color: white;
+    position:fixed;
+    top:0;
+}
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+#logo{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Madimi One","Arial","Sans serif";
+    font-size:05vw;
+}
+#menu{
+    text-align: center;
+    padding: 20px 0px;
+    font-family: "Roboto Mono","Arial","Sans serif";
+    font-size:02vw;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    
+
+}
+#menu li:hover{
+    padding-bottom: 0.4em;
+    border-bottom: goldenrod 0.3em solid;
+    font-family: bold;
+}
+
+#content{
+    padding-top: 20%;
+    width: 90%;
+    margin: 0 auto;
+   
+}
+#content img{
+    width: 100%;
+}
+
+#footer{
+    background-color: #191970;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 0;
+}
+
