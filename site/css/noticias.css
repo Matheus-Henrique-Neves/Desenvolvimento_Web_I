@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+background-color: #191970;
+width: 100%;
+position: fixed;
+top: 0;
+color: white;
+}
+header h1{
+    text-align: center;
+    font-family: "Madimi One","Tahoma";
+    padding-top: 20px;
+}
+nav{
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    
+}
+nav a{
+    font-family: "Madimi One","Tahoma";
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+nav ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a:hover{
+    padding-bottom: 0.2em;
+    border-bottom: goldenrod 0.1em solid;
+    font-family: bold;
+}
+
+footer{
+    background-color: #191970;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+footer p{
+color: white;
+text-align:center;
+padding: 17px 0px;
+}
