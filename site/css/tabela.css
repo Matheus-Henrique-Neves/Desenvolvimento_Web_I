@@ -1,0 +1,25 @@
+#tabela{
+    width: 100%;
+    font-size: 1.2em;
+    border-collapse: collapse;
+}
+#tabela th,#tabela td{
+    border: solid 0.1em black;
+}
+#tabela thead{
+    background-color: rgb(28, 29, 31);
+    color: azure;
+}
+main{
+    display: block;
+}
+h2{
+    text-align: center;
+}
+footer{
+    position: absolute;
+}
+#tabela tbody tr:nth-child(even){
+    background-color: rgba(137, 43, 226, 0.594);
+
+}
